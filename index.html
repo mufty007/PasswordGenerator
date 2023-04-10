@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>repl.it</title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+  </head>
+  <body>
+
+    <div class="container">
+        <h1>Strong passwords keeps you secured Online.</h1>
+       <div class="form">
+          <label for="select">How long do you want your <i>new</i> password to be? </label>
+        <select id="select">
+          <option value="8">8</option>
+          <option value="10">10</option>
+          <option value="12">12</option>
+          <option value="14">14</option>
+          <option value="16">16</option>
+          <option value="18">18</option>
+        </select>
+       </div>
+
+        <div class="newPassword">
+          <button class="new" id="new" onclick="generate()">New</button>
+          <input type="text" id="newPassword" value="Generated Password" />
+          <button class="copy" id="copy">Copy</button>
+        </div>
+    </div>
+
+
+    <script src="script.js"></script>
+  </body>
+</html>
